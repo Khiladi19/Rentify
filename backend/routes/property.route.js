@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { createProperty,getPropertyById,deleteProperty,likeProperty } from "../controllers/property.controller.js";
-import isLoggedIn from '../middlewares/auth.middleware.js'
+import {isLoggedIn} from '../middlewares/auth.middleware.js'
 
 
 const router = Router();
